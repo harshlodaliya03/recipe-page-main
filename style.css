@@ -1,0 +1,235 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap");
+
+:root {
+  --white: hsl(0, 0%, 100%);
+
+  --stone-100: hsl(30, 54%, 90%);
+  --stone-150: hsl(30, 18%, 87%);
+  --stone-600: hsl(30, 10%, 34%);
+  --stone-900: hsl(24, 5%, 18%);
+
+  --brown-800: hsl(14, 45%, 36%);
+
+  --rose-800: hsl(332, 51%, 32%);
+  --rose-50: hsl(330, 100%, 98%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  background-color: var(--stone-100);
+  line-height: 1.6;
+}
+
+/* Container */
+.container {
+  max-width: 736px;
+  margin: 0 auto;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 12px;
+  padding: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.05);
+}
+
+/* img */
+.pic {
+  display: block;
+  justify-content: center;
+}
+.pic img {
+  width: 100%;
+  max-width: 670px;
+  margin: 0 auto;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* title */
+.title {
+  font-size: 1.3rem;
+  color: var(--rose-800);
+  margin-bottom: 1rem;
+  font-family: "Young Serif", serif;
+}
+
+/* guide */
+.guide {
+  font-size: 1rem;
+  color: var(--stone-600);
+  margin-bottom: 1rem;
+  font-family: "outfit";
+}
+
+/* Prep Time Container */
+.container1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 0 1rem;
+  flex-wrap: wrap;
+}
+
+/* Prep Time Card */
+.prep-time {
+  width: 100%;
+  max-width: 670px;
+  background-color: var(--rose-50);
+  padding: 1.5rem 2rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.05);
+}
+
+/* Heading */
+.prep-time h3 {
+  font-size: 1.5rem;
+  color: var(--rose-800);
+  font-family: "Young Serif", serif;
+}
+
+/* List Styling */
+.prep-time ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  color: var(--stone-600);
+  font-family: "Outfit", sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  justify-content: space-between;
+}
+
+/* Bold Label Text */
+.prep-time .b {
+  font-weight: 700;
+  font-family: "Young Serif", serif;
+  color: var(--stone-600);
+  margin-left: 1rem;
+}
+
+/* Ingredients Section */
+.ingredient {
+  display: flex;
+  flex-direction: column;
+
+  color: var(--brown-800);
+  padding: 1.5rem 2rem;
+  border-radius: 12px;
+}
+
+/* Heading inside Ingredients (optional if using <h2>) */
+.ingredient h2 {
+  font-family: "Young Serif", serif;
+  font-size: clamp(1.5rem, 2vw + 1rem, 2rem);
+  color: var(--brown-800);
+  margin-bottom: 1rem;
+}
+
+/* List inside Ingredients */
+.ingredient ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  color: var(--stone-600);
+  font-family: "Outfit", sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  justify-content: space-between;
+}
+
+/* Bold items */
+.b {
+  font-weight: 700;
+  font-family: "Young Serif", serif;
+  color: var(--stone-600);
+  margin-left: 0.25rem;
+}
+.l {
+  margin-left: 1rem;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: var(--stone-600);
+  margin-bottom: 1rem;
+}
+
+.instructions h2 {
+  font-family: "Young Serif", serif;
+  font-size: clamp(1.5rem, 2vw + 1rem, 2rem);
+  color: var(--brown-800);
+  margin-bottom: 1rem;
+}
+
+.instructions ol {
+  padding-left: 1.5rem;
+  font-family: "Outfit", sans-serif;
+  font-size: 1rem;
+  color: var(--stone-600);
+  line-height: 1.8;
+}
+
+.instructions ol li {
+  margin-bottom: 1rem;
+}
+
+.instructions b {
+  font-weight: 700;
+  color: var(--stone-900);
+  font-family: "Young Serif", serif;
+}
+
+.nutrition h2 {
+  font-family: "Young Serif", serif;
+  font-size: clamp(1.5rem, 2vw + 1rem, 2rem);
+  color: var(--brown-800);
+  margin-bottom: 1rem;
+}
+
+.nutrition p {
+  font-family: "Outfit", sans-serif;
+  font-size: 1rem;
+  color: var(--stone-600);
+  line-height: 1.8;
+}
+
+.nutrition {
+  width: 100%;
+}
+
+.nutrition th,
+.nutrition td {
+  text-align: left;
+  padding: 1rem 1.5rem;
+
+  border-bottom: 1px solid var(--stone-150);
+}
+
+.nutrition th {
+  background-color: var(--stone-100);
+  color: var(--stone-900);
+  font-weight: 700;
+  font-family: "Young Serif", serif;
+}
+
+.nutrition tr:last-child td {
+  border-bottom: none;
+}
+
+.c {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--brown-800);
+  font-family: "Young Serif", serif;
+}
