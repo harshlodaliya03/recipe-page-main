@@ -8,8 +8,7 @@ This is my solution to the [Recipe page challenge on Frontend Mentor](https://ww
 
 ## 💻 Live Demo
 
-🔗 [View Live Site](https://yourusername.github.io/recipe-page-main/)  
-🔗 [View Repository](recipe-page-main)
+🔗 [View Live Site](https://harshlodaliya03.github.io/recipe-page-main/)  
 ---
 
 ## 🛠️ Tools & Technologies
