@@ -50,7 +50,7 @@ This is my solution to the [Recipe page challenge on Frontend Mentor](https://ww
 
 ## ✅ Author
 
-- Frontend Mentor – [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor – [@yourusername](https://www.frontendmentor.io/profile/harshlodaliya03)
 - GitHub – [@yourusername](https://github.com/harshlodaliya03)
 
 ---
