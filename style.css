@@ -45,7 +45,7 @@ body {
 
 /* img */
 .pic {
-  display: block;
+  display: flex;
   justify-content: center;
 }
 .pic img {
@@ -232,4 +232,34 @@ hr {
   font-weight: 400;
   color: var(--brown-800);
   font-family: "Young Serif", serif;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .title {
+    font-size: 1.1rem;
+  }
+
+  .guide {
+    font-size: 0.9rem;
+  }
+
+  .prep-time h3,
+  .ingredient h2,
+  .instructions h2,
+  .nutrition h2 {
+    font-size: 1.2rem;
+  }
+
+  .prep-time ul,
+  .ingredient ul,
+  .instructions ol,
+  .nutrition p {
+    font-size: 0.9rem;
+  }
 }
